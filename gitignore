@@ -1,0 +1,22 @@
+# OS / editor clutter
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+
+# Dependencies and builds (for later: Supabase tooling, Capacitor)
+node_modules/
+dist/
+build/
+ios/
+android/
+
+# Secrets — never commit these (e.g. a Supabase service-role key in v2)
+.env
+.env.*
+!.env.example
+
+# Logs
+*.log
+npm-debug.log*
